@@ -5,8 +5,6 @@ This is a repository for career job recommendation system
 #### Fields
 ======
 
-Given that:
-
 1. id - The unique identifier for the profile
 2. careerjunction_za_primary_jobtitle - The most recent job title of the profile
 3. careerjunction_za_recent_jobtitles - The next job titles after the most recent one (max 2)
@@ -41,7 +39,7 @@ I convert the JSON lists and dictionaries to command separate version (CSV). And
 
 2. career_recommendation.ipynb: This file is a Jupyter notebook that explain in detail the methods and functions used in solving the challenge. The project used profile similarity measure, a simple approach implementation.
 
-3. career_dataAnalysis.ipynb: This is file is a Jupyter notebook that show how the data were extrapolated.
+3. career_dataAnalysis.ipynb: This file show how the data were extrapolated.
 
 #### Data Exploration
 
