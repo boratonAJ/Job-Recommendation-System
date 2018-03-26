@@ -37,28 +37,7 @@ I convert the JSON lists and dictionaries to command separate version (CSV). And
 3. career_dataAnalysis.ipynb: This is file is a Jupyter notebook that show how the data were extrapolated.
 
 #### Data Exploration
-In this task, I explored the JSON file using Jupyter notebook, and then import it into Python and work with it using Pandas.
+In this task, I explored the JSON file using Jupyter notebook, and then import it into Python and work with it using Pandas. In this notebook, I attempt at solving all three questions of the data analysis challenge. The following information show my approach in solving the challenge:
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In this notebook, I attempt at solving all three questions of the data analysis challenge. The following information 
-
-
-
-
-The second part, although not involving any code, will be presented in this notebook too.
+1. I iterate over the data, by finding and counting words that are similar between descriptions and those that share more words, for example, I used the closest ones.
+2. For the recommendation, after finding the similar ones, I checked the current job title of source and compare with the corresponding job titles of the similar targets and then find the job title that is next.
