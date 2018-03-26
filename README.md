@@ -4,7 +4,8 @@ This is a repository for career job recommendation system
 
 #### Fields
 ======
-Given that;
+
+Given that:
 
 1. id - The unique identifier for the profile
 2. careerjunction_za_primary_jobtitle - The most recent job title of the profile
